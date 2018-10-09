@@ -9,14 +9,14 @@ source:
   sha256: 6749eaef883a456e746bd670ccc7acee1af81f82e7105685e8bfbd1cf539b125
 
 build:
-  number: 0
+  number: 1000
   skip: True  # [win]
 
 requirements:
   build:
     - cmake
     - pkg-config
-    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
   host:
     - glib
   run:
