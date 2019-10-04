@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: cem
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/csdms-contrib/cem/archive/v{{ version }}.tar.gz
-  sha256: 6749eaef883a456e746bd670ccc7acee1af81f82e7105685e8bfbd1cf539b125
+  sha256: 6f6ba9d61a75a1ff2a43d3ad9270dc4d7a4d5548414d9ef158bdd80d09950910
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [win]
 
 requirements:
